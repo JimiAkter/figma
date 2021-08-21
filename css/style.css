@@ -1,0 +1,137 @@
+/* CUSTOM CSS START */
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family:"Roboto-Regular";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+
+/* CUSTOM CSS END */
+
+
+/* SIDEBAR CUSTOM CSS START */
+.s-brand{
+    padding-left: 0 !important;
+}
+.c-navbar {
+	background-color: #ffffff;
+	background-image: none;
+    border-right: 1px solid #ddd;
+}
+.c-navbar{}
+.c-navbar li{}
+.c-navbar li a{
+    padding:10px !important;
+}
+.c-navbar li a span{
+    margin-left:6px;
+    font-family: "Roboto-Regular" !important;
+    font-weight: 400;
+    color: #000000 !important;
+} 
+.c-navbar li:hover > a{
+    background:rgba(250, 170, 27, 1) !important;
+} 
+.c-navbar li a[data-toggle="collapse"].collapsed::after {
+	content: "\f0da" !important;
+    color: black !important; 
+}
+.c-navbar li a[data-toggle="collapse"]::after{
+    content: "\f0d7" !important;
+    font-family: "Font Awesome 5 Free";
+    color: black !important;
+}
+.c-navbar .nav-item .collapse .collapse-inner .collapse-item, .c-navbar .nav-item .collapsing .collapse-inner .collapse-item {
+	padding: 0.7rem 40px !important;
+	margin:0 -16px !important;
+	border-radius:0 !important;
+}
+.collapse-item{
+    margin: 0 !important;
+    padding:5px 0 !important;
+    border-radius:0 !important;
+}
+.collapse-item:hover{
+    background:rgba(250, 170, 27, .4) !important;
+} 
+/* SIDEBAR CUSTOM CSS END */
+
+/*  SELECT LANGUAGE CSS */
+.my-dpdn{
+    display: flex;
+    align-items: center;
+}
+.my-dpdn::before{
+    content: "";
+    margin-right:2px;
+    margin-top: 6px;
+    background: url(../image/Flags.png);
+    display: block;
+    width: 30px;
+    height: 30px;   
+}
+.custom-btn{
+	padding: 0 !important;
+}
+.custom-btn:focus{
+	box-shadow: none !important;
+}
+
+.c-badge {
+	padding: 4px!important;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+	border-radius:50%;
+}
+
+
+/* bottom of topbar start */
+.c-navbar{
+    margin-top: 5px;
+    background: #ffffff;
+}
+.text{
+    font-size: 30px;
+}
+.c-email{
+    position: relative;
+}
+.c-email:focus{
+    box-shadow: none;
+}
+.custom-btn2{
+    padding:6px 40px;
+    background: #36a5ff;
+}
+.custom-btn2:hover{
+    background:rgba(250, 170, 27, 1) !important;
+}
+
+.inner-ico{
+   position: absolute;
+   right: 15px;
+   top: 4px;
+}
+/* bottom of topbar end */
+
+.text-img {
+    padding: 40px;
+}
+
+th {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+   
+}
+

@@ -1,0 +1,56 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+/* SIDEBAR CUSTOM CSS START */ 
+.c-navbar .nav-item .collapse .collapse-inner .collapse-item, .c-navbar .nav-item .collapsing .collapse-inner .collapse-item {
+	padding: 0.7rem 30px !important;
+	margin:0 !important;
+	border-radius:0 !important;
+}
+.text-img {
+    padding: 14px;
+}
+.sidebar .nav-item .collapse {
+	position: absolute;
+	left: calc(6.5rem + 0rem / 2);
+	z-index: 1;
+	top: 2px;
+}
+/* SIDEBAR CUSTOM CSS END */
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   /* SIDEBAR CUSTOM CSS START */ 
+.c-navbar .nav-item .collapse .collapse-inner .collapse-item, .c-navbar .nav-item .collapsing .collapse-inner .collapse-item {
+	padding: 0.7rem 30px !important;
+	margin:0 !important;
+	border-radius:0 !important;
+}
+.sidebar .nav-item .collapse {
+	position: absolute;
+	left: calc(6.5rem + 0rem / 2);
+	z-index: 1;
+	top: 2px;
+}
+/* SIDEBAR CUSTOM CSS END */
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   
+ }
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+   
+ }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }
